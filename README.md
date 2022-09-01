@@ -55,6 +55,8 @@ There are different types of filters are used in convolutional neural network.
 * Suppose, If we have image then we are apply filter over the image and extract all important feature and create a third function.
 
 ![image](https://user-images.githubusercontent.com/101791322/187870972-6eb8108e-4f19-4f50-a2ff-bf6599cd03a8.png)
+![image](https://user-images.githubusercontent.com/101791322/187871425-4f5388ee-f11e-462e-baf8-0aa68c776da5.png)
+
 
 #### Lets understand How third function is created, we have input image and filter.
 * Filter is apply on over the image and stride of filter is one, then multiply the Image pixel value with filter value, then the filter is move or jump to the next scan to extract the feature.
