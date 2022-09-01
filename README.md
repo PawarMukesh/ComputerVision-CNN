@@ -63,10 +63,9 @@ There are different types of filters are used in convolutional neural network.
 #### There are two types of padding:
 
 1.	Zero padding: Zero padding refers to the process of symmetrically adding zeros to the metrix.
+2.	Adjusent padding: In this padding we are take the closet number.
 
 ![image](https://user-images.githubusercontent.com/101791322/187872401-36a82f3c-d857-47ed-bb20-7fecb1b5c7ca.png)
-
-2.	Adjusent padding: In this padding we are take the closet number.
 
 ### Why Padding is used? 
 * Padding is used to prevent loss of information and shrinkage of images. When padding is applied the formula is (n+2p-f+1)/s
