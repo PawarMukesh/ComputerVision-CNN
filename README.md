@@ -33,6 +33,7 @@
 ### How Image has been form:
 * Pixel  Edges  Pattern  Parts of object  Object  Image.
 
+
 ![image](https://user-images.githubusercontent.com/101791322/187869411-3fb59ca7-0e2b-4c2e-9e42-314bb03c37d0.png)
 
 ####  Now lets understand what is convolution?
@@ -48,6 +49,17 @@ There are different types of filters are used in convolutional neural network.
 *	Sobel filter: The sobel filter is used to edge detection.
 *	Box filter: Box filter is a low pass filter that’s smooths the images by making each output pixel the average of surrounding ones remove noise and edges from the images.
 *	Gaussian filter: A gaussian filter is also known as line filter, it is usually used to blur the image and remove the noise from image.
+
+
+### How Convolutional Neural Network Works?
+* Suppose, If we have image then we are apply filter over the image and extract all important feature and create a third function.
+
+![image](https://user-images.githubusercontent.com/101791322/187870972-6eb8108e-4f19-4f50-a2ff-bf6599cd03a8.png)
+
+#### Lets understand How third function is created, we have input image and filter.
+* Filter is apply on over the image and stride of filter is one, then multiply the Image pixel value with filter value, then the filter is move or jump to the next scan to extract the feature.
+
+
 
 
 
