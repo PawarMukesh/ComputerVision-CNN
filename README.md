@@ -1,7 +1,7 @@
 # Computer-Vision-Basic-CNN
 ## The file Is Contain Convolutional Neural Network Practical Implimentation With Inbuild DataSet Of Keras.
 
-# Working With CNN:
+##  Working With CNN:
 ## Introduction Of CNN
 ### •	A Convolutional neural network (CNN or ConvNet) is a class of artificial neural network.
 ### •	In Neural Network one of the main category to do image classification, object detection and segmentation etc.. are some of the areas where  CNN are widely used.
@@ -70,6 +70,33 @@ There are different types of filters are used in convolutional neural network.
 ### Why Padding is used? 
 * Padding is used to prevent loss of information and shrinkage of images. When padding is applied the formula is (n+2p-f+1)/s
 Ex. 6+2-3+1/1 = 6 means the input size and output size becomes equal.
+
+### Relu:
+* Relu stand for rectified linear unit, for a non linear operation, the output is F(x) = max(0,x)
+
+### Pooling Layer:
+* This is a feature selection stage in CNN, Pooling layer extract the important information of third function that we are created There are three type of pooling layer:
+1.	Max pool: Max pool layer extract the maximum information.
+2.	Min pool: Min pool layer extract the minimum information.
+3.	Mean/Average pool: Mean pool extract the average information.
+In Max pooling the size of filter is 2*2 and the stride is also 2.
+
+![image](https://user-images.githubusercontent.com/101791322/187920984-6a8a3bbe-c083-4ece-976d-2a94d5a1f6ef.png)
+
+### Flatten Layer:
+* Flatten layer is used to convert a any size/shape matrix into 1D array.
+
+![image](https://user-images.githubusercontent.com/101791322/187921109-51728611-0723-4122-aa3d-9ecdd4754ca4.png)
+
+
+### FCNN : 
+* FCNN stand for fully connected neural network, in this stage each and every neuron is fully connected to each other.
+
+![image](https://user-images.githubusercontent.com/101791322/187921277-d48e6075-97ab-4b9c-ab82-002004e929d7.png)
+
+### Architecture of CNN:
+
+![image](https://user-images.githubusercontent.com/101791322/187922137-478c4ed9-3891-49f3-ba63-4a95642c6804.png)
 
 
 
