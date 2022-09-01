@@ -53,13 +53,30 @@ There are different types of filters are used in convolutional neural network.
 
 ### How Convolutional Neural Network Works?
 * Suppose, If we have image then we are apply filter over the image and extract all important feature and create a third function.
+* Filter is apply on over the image and stride of filter is one, then multiply the Image pixel value with filter value, then the filter is move or jump to the next scan to extract the feature.
 
-![image](https://user-images.githubusercontent.com/101791322/187870972-6eb8108e-4f19-4f50-a2ff-bf6599cd03a8.png)
 ![image](https://user-images.githubusercontent.com/101791322/187871425-4f5388ee-f11e-462e-baf8-0aa68c776da5.png)
 
+### What is padding?
+* Padding is a process of adding cushion on original image, cushion means addition of rows and column both side on images.
 
-#### Lets understand How third function is created, we have input image and filter.
-* Filter is apply on over the image and stride of filter is one, then multiply the Image pixel value with filter value, then the filter is move or jump to the next scan to extract the feature.
+#### There are two types of padding:
+
+1.	Zero padding: Zero padding refers to the process of symmetrically adding zeros to the metrix.
+
+![image](https://user-images.githubusercontent.com/101791322/187872401-36a82f3c-d857-47ed-bb20-7fecb1b5c7ca.png)
+
+2.	Adjusent padding: In this padding we are take the closet number.
+
+### Why Padding is used? 
+* Padding is used to prevent loss of information and shrinkage of images. When padding is applied the formula is (n+2p-f+1)/s
+Ex. 6+2-3+1/1 = 6 means the input size and output size becomes equal.
+
+
+
+
+
+
 
 
 
